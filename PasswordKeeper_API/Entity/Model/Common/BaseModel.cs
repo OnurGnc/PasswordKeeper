@@ -9,6 +9,6 @@ namespace PasswordKeeper_API.Entity.Model.Common
     {
         public bool IsActive { get; set; }
         public DateTime ModifiedDate { get; set; }
-        public int ModifiedUser { get; set; }
+        public string ModifiedUser { get; set; }
     }
 }

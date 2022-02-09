@@ -14,7 +14,7 @@ namespace PasswordKeeper_API.Entity.Context
 
         }
 
-        public DbSet<User> Users { get; set; }
+        //public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<User_Account> User_Account { get; set; }
     }
